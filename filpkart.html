@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            background-image: url('download1.jpg');
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 300px;
+            margin: 100px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] input[type="request"] {
+            width: 100%;
+            padding: 5px;
+            background: #007BFF;
+            
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            width: 100%;
+            padding: 5px;
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/submit_login" method="post">
+            <img src="download.jpg" >
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+            <input type="submit" value="Request OTP"> 
+           <a href="login" color="blue"><h6>forgot password</h6></a>
+               
+        </form>
+    </div>
+    </center>
+</body>
+</html>
